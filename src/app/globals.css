@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* 品牌设计令牌：燕麦 / 雾霾蓝 / 橄榄绿 */
+@theme {
+  --color-cream: #f7f3ec;
+  --color-ink: #2b2a27;
+  --color-oat: #e4d8c4;
+  --color-mist: #b9c6cf;
+  --color-olive: #8a8f6a;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
